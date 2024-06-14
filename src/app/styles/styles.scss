@@ -1,0 +1,26 @@
+@import './variables.scss';
+@import './global.scss';
+
+
+.full-height {
+    height: 100vh;
+}
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    text-align: end;
+    padding: 2%;
+
+    .footer_ver {
+        font-size: 0.8em;
+        padding-bottom: 1%;
+    }
+    .footer_date {
+        font-size: 0.6em;
+    }
+}
