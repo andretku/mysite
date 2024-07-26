@@ -2,10 +2,6 @@
 @import './global.scss';
 
 
-.full-height {
-    height: 100vh;
-}
-
 .hello {
     display: flex;
     flex-direction: column;
@@ -14,7 +10,7 @@
 
 .footer {
     text-align: end;
-    padding: 2%;
+    padding-right: 2%;
 
     .footer_ver {
         font-size: 0.8em;
